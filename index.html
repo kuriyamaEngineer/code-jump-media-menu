@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Sneakers</title>
+        <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキス">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- カルーセルスライダー -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script src="js/main.js"></script>
+      </head>
+  <!-- <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> -->
+    <!-- <link rel="stylesheet" href="css/animation.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="js/jquery.inview.min.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lilita One' rel='stylesheet'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Kiwi Maru' rel='stylesheet'> -->
+  <!-- </head> -->
+
+  <body>
+    <header>
+        <img src="img/logo.svg" alt="">
+
+        <nav id="navi">
+            <ul class="nav-menu">
+              <li><a href="#pickup">PICK UP</a></li>
+              <li><a href="#feature">FEATURE</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <ul class="nav-sns">
+              <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+              <li><a href="https://www.facebook.com/" target="_blank">facebook</a></li>
+              <li><a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+            </ul>
+        </nav>
+    
+          <div class="toggle_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+    
+          <div id="mask"></div>
+    </header>
+    <section>
+        <div id="video">
+            <img class="video" src="img/pickup1.jpg" alt="ピックアップ１　テキストテキスト">
+            <!-- <video id="bg-video" src="video/video.mp4" loop autoplay muted playsinline></video> -->
+          </div>
+    </section>    
+    <section id="pickup">
+        <h1>PICK UP</h1>
+        <ul  class="slick-area pickup-warp">
+            <li><img src="img/pickup1.jpg" alt="ピックアップ１　テキストテキスト"></li>
+            <li><img src="img/pickup2.jpg" alt="ピックアップ２　テキストテキスト"></li>
+            <li><img src="img/pickup3.jpg" alt="ピックアップ３　テキストテキスト"></li>
+            <li><img src="img/pickup4.jpg" alt="ピックアップ４　テキストテキスト"></li>
+            <li><img src="img/pickup5.jpg" alt="ピックアップ５　テキストテキスト"></li>
+            <li><img src="img/pickup6.jpg" alt="ピックアップ６　テキストテキスト"></li>
+            <li><img src="img/pickup7.jpg" alt="ピックアップ７　テキストテキスト"></li>
+            <li><img src="img/pickup8.jpg" alt="ピックアップ８　テキストテキスト"></li>
+            <li><img src="img/pickup9.jpg" alt="ピックアップ９　テキストテキスト"></li>
+          </ul>
+    <!-- <ul class="slick-area slick-initialized slick-slider"><div class="slick-list draggable" style="padding: 0px 100px;"><div class="slick-track" style="opacity: 1; width: 6402px; transform: translate3d(-1164px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-4" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup6.jpg" alt="ピックアップ６　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="-3" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup7.jpg" alt="ピックアップ７　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup8.jpg" alt="ピックアップ８　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup9.jpg" alt="ピックアップ９　テキストテキスト"></li></div></div><div class="slick-slide slick-active" data-slick-index="0" aria-hidden="false" style="width: 291px;" tabindex="-1"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup1.jpg" alt="ピックアップ１　テキストテキスト"></li></div></div><div class="slick-slide slick-current slick-active slick-center" data-slick-index="1" aria-hidden="false" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup2.jpg" alt="ピックアップ２　テキストテキスト"></li></div></div><div class="slick-slide slick-active" data-slick-index="2" aria-hidden="false" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup3.jpg" alt="ピックアップ３　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup4.jpg" alt="ピックアップ４　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup5.jpg" alt="ピックアップ５　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup6.jpg" alt="ピックアップ６　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="6" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup7.jpg" alt="ピックアップ７　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="7" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup8.jpg" alt="ピックアップ８　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="8" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup9.jpg" alt="ピックアップ９　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="9" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup1.jpg" alt="ピックアップ１　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="10" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup2.jpg" alt="ピックアップ２　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="11" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup3.jpg" alt="ピックアップ３　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="12" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup4.jpg" alt="ピックアップ４　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="13" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup5.jpg" alt="ピックアップ５　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="14" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup6.jpg" alt="ピックアップ６　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="15" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup7.jpg" alt="ピックアップ７　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="16" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup8.jpg" alt="ピックアップ８　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="17" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup9.jpg" alt="ピックアップ９　テキストテキスト"></li></div></div></div></div></ul> -->
+        <!-- <ul class="slick-initialized slick-slider pickup-warp"><div class="slick-list draggable" style="padding: 0px 100px;"><div class="slick-track" style="opacity: 1; width: 6402px; transform: translate3d(-1455px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-4" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup6.jpg" alt="ピックアップ６　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="-3" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup7.jpg" alt="ピックアップ７　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup8.jpg" alt="ピックアップ８　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup9.jpg" alt="ピックアップ９　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup1.jpg" alt="ピックアップ１　テキストテキスト"></li></div></div><div class="slick-slide slick-active" data-slick-index="1" aria-hidden="false" style="width: 291px;" tabindex="-1"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup2.jpg" alt="ピックアップ２　テキストテキスト"></li></div></div><div class="slick-slide slick-current slick-active slick-center" data-slick-index="2" aria-hidden="false" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup3.jpg" alt="ピックアップ３　テキストテキスト"></li></div></div><div class="slick-slide slick-active" data-slick-index="3" aria-hidden="false" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup4.jpg" alt="ピックアップ４　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="4" aria-hidden="true" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup5.jpg" alt="ピックアップ５　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup6.jpg" alt="ピックアップ６　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="6" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup7.jpg" alt="ピックアップ７　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="7" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup8.jpg" alt="ピックアップ８　テキストテキスト"></li></div></div><div class="slick-slide" data-slick-index="8" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup9.jpg" alt="ピックアップ９　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="9" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup1.jpg" alt="ピックアップ１　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="10" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup2.jpg" alt="ピックアップ２　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="11" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup3.jpg" alt="ピックアップ３　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="12" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup4.jpg" alt="ピックアップ４　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="13" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup5.jpg" alt="ピックアップ５　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="14" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup6.jpg" alt="ピックアップ６　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="15" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup7.jpg" alt="ピックアップ７　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="16" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup8.jpg" alt="ピックアップ８　テキストテキスト"></li></div></div><div class="slick-slide slick-cloned" data-slick-index="17" id="" aria-hidden="true" tabindex="-1" style="width: 291px;"><div><li style="width: 100%; display: inline-block;"><img src="img/pickup9.jpg" alt="ピックアップ９　テキストテキスト"></li></div></div></div></div></ul> -->
+    </section>
+
+    <section id="feature">
+        <h1>FEATURE</h1>
+            <div class="feature-warp">
+                <div class="feature-article-warp">
+                    <img class="fadein" src="img/feature1.jpg" alt="ピックアップ１　テキストテキスト">
+                    <div class="feature-article-text-warp">
+                        <p class="feature-article-category">category</p>
+                        <p class="feature-article-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p class="feature-article-date">XXXX.XX.XX</p>
+                    </div>
+                </div>
+                <div class="feature-article-warp">
+                    <img class="fadein" src="img/feature2.jpg" alt="ピックアップ１　テキストテキスト">
+                    <div class="feature-article-text-warp">
+                        <p class="feature-article-category">category</p>
+                        <p class="feature-article-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p class="feature-article-date">XXXX.XX.XX</p>
+                    </div>
+                </div>
+                <div class="feature-article-warp">
+                    <img class="fadein" src="img/feature3.jpg" alt="ピックアップ１　テキストテキスト">
+                    <div class="feature-article-text-warp">
+                        <p class="feature-article-category">category</p>
+                        <p class="feature-article-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p class="feature-article-date">XXXX.XX.XX</p>
+                    </div>
+                </div>
+                <div class="feature-article-warp">
+                    <img class="fadein" src="img/feature4.jpg" alt="ピックアップ１　テキストテキスト">
+                    <div class="feature-article-text-warp">
+                        <p class="feature-article-category">category</p>
+                        <p class="feature-article-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p class="feature-article-date">XXXX.XX.XX</p>
+                    </div>
+                </div>
+                <div class="feature-article-warp">
+                    <img class="fadein" src="img/feature5.jpg" alt="ピックアップ１　テキストテキスト">
+                    <div class="feature-article-text-warp">
+                        <p class="feature-article-category">category</p>
+                        <p class="feature-article-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p class="feature-article-date">XXXX.XX.XX</p>
+                    </div>
+                </div>
+                <div class="feature-article-warp">
+                    <img class="fadein" src="img/feature6.jpg" alt="ピックアップ１　テキストテキスト">
+                    <div class="feature-article-text-warp">
+                        <p class="feature-article-category">category</p>
+                        <p class="feature-article-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p class="feature-article-date">XXXX.XX.XX</p>
+                    </div>
+                </div>
+                <div class="feature-article-warp">
+                    <img class="fadein" src="img/feature7.jpg" alt="ピックアップ１　テキストテキスト">
+                    <div class="feature-article-text-warp">
+                        <p class="feature-article-category">category</p>
+                        <p class="feature-article-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p class="feature-article-date">XXXX.XX.XX</p>
+                    </div>
+                </div>
+                <div class="feature-article-warp">
+                    <img class="fadein" src="img/feature8.jpg" alt="ピックアップ１　テキストテキスト">
+                    <div class="feature-article-text-warp">
+                        <p class="feature-article-category">category</p>
+                        <p class="feature-article-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p class="feature-article-date">XXXX.XX.XX</p>
+                    </div>
+                </div>
+                <div class="feature-article-warp">
+                    <img class="fadein" src="img/feature9.jpg" alt="ピックアップ１　テキストテキスト">
+                    <div class="feature-article-text-warp">
+                        <p class="feature-article-category">category</p>
+                        <p class="feature-article-text">テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                        <p class="feature-article-date">XXXX.XX.XX</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <h1>CONTACT</h1>
+        <div class="contact-warp">
+            <div class="contact-text-warp">
+                <p>テキストテキストテキスト</p>
+                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+            <div class="contact-form-warp">
+                <form action="">
+                    <label for="">Name:<br>
+                        <input type="text" name="" id="">
+                    </label>
+                    <label for="">Mail:<br>
+                        <input type="text" name="" id="">
+                    </label>
+                    <label for="">Message:<br>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </label>
+                    <input type="button" value="SEND">
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>
+            © Sneakers
+        </p>
+    </footer>
+  </body>
+</html>
